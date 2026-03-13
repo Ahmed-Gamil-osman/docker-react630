@@ -13,6 +13,8 @@ jobs:
       - run: docker build -t ahmedgamil/react-test -f Dockerfile.dev .
       - run: docker run -e CI=true ahmedgamil/react-test npm run test
 
+      #this is a comment to check the feature branch of github repository
+
     # # create artifcat for deployment
     #   - name: Create deployment package 
     #     run : zip -r deploy.zip . -x '*.git*'
