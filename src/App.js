@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Now we are using bind mount volumes for both Dev and Test
+          We can now Deploy our React app Gamed ya Gamed
         </p>
         <a
           className="App-link"
