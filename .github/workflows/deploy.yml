@@ -16,7 +16,7 @@ jobs:
       - run: docker build -t ahmedgamil/multi-client ./microservices/client 
       - run: docker build -t ahmedgamil/multi-nginx  ./microservices/nginx 
       - run: docker build -t ahmedgamil/multi-server ./microservices/server
-      - run: docker bulid -t ahmedgamil/multi-worker ./microservices/worker 
+      - run: docker build -t ahmedgamil/multi-worker ./microservices/worker 
 
       - run: docker push ahmedgamil/multi-client 
       - run: docker push ahmedgamil/multi-nginx 
