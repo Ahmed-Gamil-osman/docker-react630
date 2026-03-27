@@ -21,7 +21,7 @@ jobs:
       - run: docker push ahmedgamil/multi-client 
       - run: docker push ahmedgamil/multi-nginx 
       - run: docker push ahmedgamil/multi-server 
-      - run: docker push ahmedgmail/multi-worker 
+      - run: docker push ahmedgamil/multi-worker 
 
       #this is a comment to check the feature branch of github repository
 
